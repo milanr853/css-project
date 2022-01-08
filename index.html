@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sangeetic</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/26d4a64054.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section>
+        <div class="svg">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".25" class="shape-fill"></path>
+                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+            </svg>
+        </div>
+
+        <div class="mainContainer">
+            <!-- ___NAV-BAR(flex parent)___ -->
+            <div class="navbar">
+                                <!-- ---Left Half(flex child 1)--- -->
+                <ul class="navbarLefthalf">
+                    <li>
+                        <a href="index.html" id="logo"><img src="logo.png" alt=""></a>
+                    </li>
+                    <li><a href="#" id="fav">Favorites</a></li>
+                </ul>
+
+                                <!-- ---Right Half(flex child 2)--- -->
+                <ul class="navbarRighthalf">
+                    <li>
+                        <div class="searchBox">
+                            <i class="fas fa-search"></i>
+                            <input type="search" id="search" placeholder="Search">
+                            <i class="fas fa-microphone"></i>
+                        </div>
+                    </li>
+                    <li><i class="fas fa-bell"></i></li>
+                    <li>
+                        <div class="account"><img src="https://bityl.co/9ceB" alt="manImage"></div>
+                    </li>
+                </ul>
+            </div>
+
+
+
+            <!-- ___SONGS CONTAINER(Flex Parent)___ -->
+            <div class="songsContainer">
+                <!--flex child one -->
+                <div class="songs">
+                    <div class="CAROUSEL">
+                        <input type="radio" name="slider" id="s1" checked>
+                        <input type="radio" name="slider" id="s2">
+                        <input type="radio" name="slider" id="s3">
+                        <input type="radio" name="slider" id="s4">
+                        <input type="radio" name="slider" id="s5">
+
+                        <label for="s1" id='slider1'>
+                            <img src="https://bityl.co/9fXL" alt="">
+                        </label>
+                        <label for="s2" id='slider2'>
+                            <img src="https://bityl.co/9fZ8" alt="">
+                        </label>
+                        <label for="s3" id='slider3'>
+                            <img src="https://bityl.co/9fYi" alt="">
+                        </label>
+                        <label for="s4" id='slider4'>
+                            <img src="https://bityl.co/9fWt" alt="">
+                        </label>
+                        <label for="s5" id='slider5'>
+                            <img src="https://bityl.co/9fMW" alt="">
+                        </label>
+                    </div>
+
+                    <div class="YOUR_TOP_MIXES">
+                        <h2>Your top mixes</h2>
+                        <div><img src="https://bityl.co/9d2J" alt="miesImage">
+                            <small>XXX Tentacion,Lil Nas X,Billie Eilish...</small>
+                        </div>
+                        <div><img src="https://bityl.co/9d2O" alt="miesImage">
+                            <small>XXX Tentacion,Lil Nas X,Billie Eilish...</small>
+                        </div>
+                        <div><img src="https://bityl.co/9d2P" alt="miesImage">
+                            <small>XXX Tentacion,Lil Nas X,Billie Eilish...</small>
+                        </div>
+                        <div><img src="https://bityl.co/9d2s" alt="miesImage">
+                            <small>XXX Tentacion,Lil Nas X,Billie Eilish...</small>
+                        </div>
+                        <div><img src="https://bityl.co/9d2w" alt="miesImage">
+                            <small>XXX Tentacion,Lil Nas X,Billie Eilish...</small>
+                        </div>
+                        <div><img src="https://bityl.co/9e1g" alt="miesImage">
+                            <small>XXX Tentacion,Lil Nas X,Billie Eilish...</small>
+                        </div>
+                        <div><img src="https://bityl.co/9d2u" alt="miesImage">
+                            <small>XXX Tentacion,Lil Nas X,Billie Eilish...</small>
+                        </div>
+                    </div>
+
+                    <div class="RECENTLY_PLAYED">
+                        <h2>Recently Played</h2>
+                        <div><img src="https://bityl.co/9dvy" alt="">
+                            <small>Rap God</small>
+                        </div>
+                        <div><img src="https://bityl.co/9dvy" alt="">
+                            <small>Rap God</small>
+                        </div>
+                        <div><img src="https://bityl.co/9dvy" alt="">
+                            <small>Rap God</small>
+                        </div>
+                        <div><img src="https://bityl.co/9dvy" alt="">
+                            <small>Rap God</small>
+                        </div>
+                        <div><img src="https://bityl.co/9dvy" alt="">
+                            <small>Rap God</small>
+                        </div>
+                        <div><img src="https://bityl.co/9dvy" alt="">
+                            <small>Rap God</small>
+                        </div>
+                        <div><img src="https://bityl.co/9dvy" alt="">
+                            <small>Rap God</small>
+                        </div>
+                        <div><img src="https://bityl.co/9dvy" alt="">
+                            <small>Rap God</small>
+                        </div>
+                    </div>
+
+                    <div class="LATEST_RELEASES">
+                        <h2>Latest Releases</h2>
+                        <div class="grid">
+                            <div class="flex">
+                                <img src="https://bityl.co/9e7Y" alt="latest released song">
+                                <span class= name>Anaconda<br><span>March 12 2022</span></span>
+                                <div style="text-align: center; display: flex;flex-direction: column;text-align: right;">
+                                    <i class="fas fa-ellipsis-h" style="font-size: 20px;margin-bottom: 5px;"></i>
+                                    <span class="time">4.44</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid">
+                            <div class="flex">
+                                <img src="https://bityl.co/9esD" alt="latest released song">
+                                <span class= name>Anaconda<br><span>March 12 2022</span></span>
+                                <div style="text-align: center; display: flex;flex-direction: column;text-align: right;">
+                                    <i class="fas fa-ellipsis-h" style="font-size: 20px;margin-bottom: 5px;"></i>
+                                    <span class="time">4.44</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid">
+                            <div class="flex">
+                                <img src="https://bityl.co/9esQ" alt="latest released song">
+                                <span class= name>Anaconda<br><span>March 12 2022</span></span>
+                                <div style="text-align: center; display: flex;flex-direction: column;text-align: right;">
+                                    <i class="fas fa-ellipsis-h" style="font-size: 20px;margin-bottom: 5px;"></i>
+                                    <span class="time">4.44</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid">
+                            <div class="flex">
+                                <img src="https://bityl.co/9esY" alt="latest released song">
+                                <span class= name>Anaconda<br><span>March 12 2022</span></span>
+                                <div style="text-align: center; display: flex;flex-direction: column;text-align: right;">
+                                    <i class="fas fa-ellipsis-h" style="font-size: 20px;margin-bottom: 5px;"></i>
+                                    <span class="time">4.44</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div class="TOP_ARTIST">
+                        <h2>Top Artists</h2>
+                        <div id="artist">
+                            <img src="https://bityl.co/9eCz" alt="artist">
+                        </div>
+                        <div id="artist">
+                            <img src="https://bityl.co/9eD7" alt="artist">
+                        </div>
+                        <div id="artist">
+                            <img src="https://bityl.co/9eE0" alt="artist">
+                        </div>
+                        <div id="artist">
+                            <img src="https://bityl.co/9eE2" alt="artist">
+                        </div>
+                        <div id="artist">
+                            <img src="https://bityl.co/9eEE" alt="artist">
+                        </div>
+                        <div id="artist">
+                            <img src="https://bityl.co/9eEH" alt="artist">
+                        </div>
+                        <p>Justin Beiber</p>
+                        <p>Dua Lipa</p>
+                        <p>Calvin Harris</p>
+                        <p>Imagine Dragons</p>
+                        <p>Ariana Grande</p>
+                        <p>Ed Shreeran</p>
+                    </div>
+
+                    <div class="GENRES">
+                        <h2>Genres</h2>
+                        <div style="background-color: blanchedalmon;">
+                        </div>
+                        <div style="background-color: blanchedalmond;">
+                        </div>
+                        <div style="background-color: blanchedalmond;">
+                        </div>
+                        <small>Lofi</small>
+                        <small>Rock</small>
+                        <small>Hip Hop</small>
+                        <div style="background-color: blanchedalmond;">
+                        </div>
+                        <div style="background-color: blanchedalmond;">
+                        </div>
+                        <div style="background-color: blanchedalmond;">
+                        </div>
+                        <small>Pop</small>
+                        <small>Kpop</small>
+                        <small>EDM</small>
+                    </div>
+
+                    <div class="CATEGORY">
+                        <h2>Category</h2>
+                        <div class="gaming">
+                            <img src="https://bityl.co/9eKJ" alt="">
+                        </div>
+                        <div class="workout">
+                            <img src="https://bityl.co/9eKR" alt="">
+                        </div>
+                        <div class="travel">
+                            <img src="https://bityl.co/9eKP" alt="">
+                        </div>
+                        <div class="romance">
+                            <img src="https://bityl.co/9eKN" alt="">
+                        </div>
+                        <div class="party">
+                            <img src="https://bityl.co/9eKY" alt="">
+                        </div>
+                    </div>
+
+                    <div class="TRENDING_NOW">
+                        <h2>Trending Now</h2>
+                        <div class = 'trending'><img src="https://bityl.co/9eMl" alt="miesImage">
+                        </div>
+                        <div class = 'trending'><img src="https://bityl.co/9eMs" alt="miesImage">
+                        </div>
+                        <div class = 'trending'><img src="https://amz.run/54Kt" alt="miesImage">
+                        </div>
+                        <div class = 'trending'><img src="https://bityl.co/9eN1" alt="miesImage">
+                        </div>
+                        <div class = 'trending'><img src="https://bityl.co/9eMI" alt="miesImage">
+                        </div>
+
+                        <div class = small><small>Charlie Puth</small><br>
+                        <small>How Long</small></div>
+                        <div class = small><small>Aurora</small><br>
+                        <small>Runaway</small></div>
+                        <div class = small><small>Bruno Mars</small><br>
+                        <small>24k Magic</small></div>
+                        <div class = small><small>Weeknd</small><br>
+                        <small>Star Boy</small></div>
+                        <div class = small><small>Roddy Rich</small><br>
+                        <small>The Box</small></div>
+                    </div>
+                </div>
+
+                <!-- flex child two || Click Upon The Playlist Icons To View The Single Artist page Section -->
+                <div class="playlist">
+                    <div class="songList">
+                        <h2>Your PlayList</h2>
+                        <span>Liked</span>
+                    </div>
+                    <div class="songList">
+                        <div class='playlistSongDetails'><small>01</small>
+                            <a href="singleArtistPlaylist.html" target="_blank"><img src="https://bityl.co/9cvX" alt="songThumbnail" class=playlistThumbnail></a>
+                            <h3>Ocean Eyes<br>
+                                <p>Bllie Eilish</p>
+                            </h3>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="songList">
+                        <div class='playlistSongDetails'><small>02</small>
+                            <a href="singleArtistPlaylist.html" target="_blank"><img src="https://amz.run/547e" alt="songThumbnail" class=playlistThumbnail></a>
+                            <h3>Godzilla<br>
+                                <p>Eminem</p>
+                            </h3>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="songList">
+                        <div class='playlistSongDetails'><small>03</small>
+                            <a href="singleArtistPlaylist.html" target="_blank"><img src="https://bityl.co/9cxp" alt="songThumbnail" class=playlistThumbnail></a>
+                            <h3>Kiss Me More<br>
+                                <p>Dojo Cat & SZA</p>
+                            </h3>
+                        </div>
+                        <i class="fas fa-heart color"></i>
+                    </div>
+                    <div class="songList">
+                        <div class='playlistSongDetails'><small>04</small>
+                            <a href="singleArtistPlaylist.html" target="_blank"><img src="https://bityl.co/9cxt" alt="songThumbnail" class=playlistThumbnail></a>
+                            <h3>Attention<br>
+                                <p>Charlie Puth</p>
+                            </h3>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="songList">
+                        <div class='playlistSongDetails'><small>05</small>
+                            <a href="singleArtistPlaylist.html" target="_blank"><img src="https://bityl.co/9cy1" alt="songThumbnail" class=playlistThumbnail></a>
+                            <h3>Believer<br>
+                                <p>Imagine Dragons</p>
+                            </h3>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="songList">
+                        <div class='playlistSongDetails'><small>06</small>
+                            <a href="singleArtistPlaylist.html" target="_blank"><img src="https://bityl.co/9cyE" alt="songThumbnail" class=playlistThumbnail></a>
+                            <h3>Sicko Mode<br>
+                                <p>Travis Scott</p>
+                            </h3>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="songList">
+                        <div class='playlistSongDetails'><small>07</small>
+                            <a href="singleArtistPlaylist.html" target="_blank"><img src="https://bityl.co/9cyP" alt="songThumbnail" class=playlistThumbnail></a>
+                            <h3>Gucci Gang Remix<br>
+                                <p>Joyner Lucas</p>
+                            </h3>
+                        </div>
+                        <i class="fas fa-heart color"></i>
+                    </div>
+                    <div class="songList">
+                        <div class='playlistSongDetails'><small>08</small>
+                            <a href="singleArtistPlaylist.html" target="_blank"><img src="https://bityl.co/9cyl" alt="songThumbnail" class=playlistThumbnail></a>
+                            <h3>Arcade<br>
+                                <p>Duncan Laurence</p>
+                            </h3>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="songList">
+                        <div class='playlistSongDetails'><small>09</small>
+                            <a href="singleArtistPlaylist.html" target="_blank"><img src="https://bityl.co/9cyv" alt="songThumbnail" class=playlistThumbnail></a>
+                            <h3>Bobby Toronto<br>
+                                <p>Logic</p>
+                            </h3>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="songList">
+                        <div class='playlistSongDetails'><small>10</small>
+                            <a href="singleArtistPlaylist.html" target="_blank"><img src="https://bityl.co/9czG" alt="songThumbnail" class=playlistThumbnail></a>
+                            <h3>Stressed Out<br>
+                                <p>21 pilots</p>
+                            </h3>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                <!-- flex child two || Click Upon The Playlist Icons To View The Single Artist page Section -->
+            </div>
+        </div>
+
+
+
+        <!-- ___BOTTOM MUSIC PLAYER___ -->
+        <div class="bottomMusicPlayer">
+            <div class="details">
+                <div class="artistImage"><img src="https://bityl.co/9ckb" alt="artistImage"></div>
+                <h2 class="artistSong">Moonlight<br><small>XXX Tentacion</small></h2>
+                <i class="far fa-heart"></i>
+                <i class="fas fa-ban"></i>
+            </div>
+
+            <div class="controls">
+                <div><i class="fas fa-random"></i>
+                    <i class="fas fa-step-backward"></i>
+                    <i class="fas fa-play"></i>
+                    <i class="fas fa-step-forward"></i>
+                    <i class="fas fa-sync"></i>
+                </div>
+                <input type="range" id="songProgress" min="0" max="100">
+            </div>
+
+            <div class="extraOptions">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-mobile-alt"></i>
+                <i class="fas fa-volume-up"></i>
+                <div class="volume">
+                    <input type="range" id="range" min="0" max="100">
+                </div>
+                <i class="fas fa-compress-alt"></i>
+            </div>
+        </div>
+    </section>
+
+        <!-- ___JAVASCRIPT___ -->
+    <script src="script.js"></script>
+</body>
+
+</html>

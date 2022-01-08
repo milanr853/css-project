@@ -1,0 +1,54 @@
+/* _____ARTIST BANNER SECTION_____ */
+.artistBanner{width: 100%;height: 25vmax;margin-bottom: 50px;display: flex;}
+
+.bannerImage{width: 40%;height: 100%;background-color: antiquewhite;background: url('https://bityl.co/9fqZ');background-position: top;background-size: cover;background-repeat: no-repeat;}
+
+.bannerDetails{width: 60%;height: 100%;background-color:#202a4f;box-sizing: border-box;padding:0 2.5vmax;}
+
+.bdTop,.bdBottom,.mid-para{width: 100%;}
+
+.bdTop{display: flex;justify-content: space-between;margin-bottom: .2vmax;margin-top: 2.5vmax;}
+
+.bdTop h2{font-size: 2vmax;}
+
+.bdTop small{font-size: 1vmax;}
+
+.mid-para p{font-size: 1.1vmax;}
+
+.mid-para p:first-of-type{margin-bottom: 1vmax;}
+
+.bdBottom{margin-top: 2vmax;position: relative;}
+.bdBottom button{padding: 0.75vmax 2.75vmax;border:none;cursor: pointer;font-size: 1vmax;background: linear-gradient(45deg,#94B3FD,#B983FF);color: azure;}
+
+.bdBottom small{display: block;margin-top: 1vmax;font-size: 1vmax;}
+
+.bdBottom span{font-size: 1vmax;margin-left: 5vmax;position: absolute;cursor: pointer;}
+
+/* _____ALL SONGS SECTION_____ */
+
+.artistAllSongs{width: 100%;}
+
+.artistAllSongs .songItem:not(:nth-child(8)){margin-bottom: 10px;}
+
+.songItem{width: 100%;display: flex;justify-content: space-between;align-items: center;height: 6vmax;background-color:#678983;border-radius: 4px;box-sizing: border-box;padding: 0 1vmax;}
+
+.songItemLeft{display: flex;align-items: center;width:400px;}
+
+.songItemLeft small{margin-right: 10px;}
+
+.songItemLeft div{width: 5vmax;height: 5vmax;background-image: url('https://bityl.co/9fvx');background-position: center;background-size: cover;border-radius: 3px;margin-right: 10px;}
+
+.songItemRight{width: 100px;}
+
+.songItemRight li{list-style-type: none;display: inline;padding: 1vmax;}
+
+/* _____SIMILAR ARTIST SECTION_____ */
+.similarArtists {height: 26vmax;width: 100%;margin-bottom: 35px;box-sizing: border-box;padding: 10px;display: grid;grid-template-columns:1fr 1fr;grid-template-rows: 4vmax calc(calc(100% - 4vmax)/2) calc(calc(100% - 4vmax)/2)}
+
+.similarArtists h2{grid-column: span 2;}
+
+/* some css done witn-in Html */   /* some css done witn-in Html */   /* some css done witn-in Html */   /* some css done witn-in Html */   /* some css done witn-in Html */   /* some css done witn-in Html */
+
+@media screen and (max-width: 752px) {
+    .similarArtists{height: 400px;}
+}
